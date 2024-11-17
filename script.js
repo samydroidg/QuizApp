@@ -162,17 +162,16 @@ function showResultBox(){
     const circularProgress = document.querySelector('.circular-progress')
     const progressValue = document.querySelector('.progress-value')
     let progressStartValue = -10
-    let progressEndValue = (userScore / questions.length) * 100
+    let progressEndValue = Math.round((userScore / questions.length) * 100)
     let speed = 20
 
     let progress = setInterval(() => {
-        progressStartValue++
-        progressValue.textContent = `${progressStartValue}%`
-        circularProgress.style.background = `conic-gradient(#c402eb ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`
-
-        if(progressStartValue == progressEndValue){
-            clearInterval(progress)
+        if (progressStartValue < progressEndValue) {
+            progressStartValue++;
+            progressValue.textContent = `${progressStartValue}%`;
+            circularProgress.style.background = `conic-gradient(#c402eb ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
+        } else {
+            clearInterval(progress);
         }
-
-    }, speed)
+    }, speed);
 }
