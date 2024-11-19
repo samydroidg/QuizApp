@@ -145,4 +145,114 @@ let questions = [
       "D. To test the model’s accuracy",
     ],
   },
-];
+  {
+    numb: 16,
+    question: "Which algorithm is used for finding the shortest path in a weighted graph?",
+    answer: "A. Dijkstra's Algorithm",
+    options: [
+      "A. Dijkstra's Algorithm",
+      "B. Depth First Search",
+      "C. Breadth First Search",
+      "D. Kruskal's Algorithm"
+    ]
+  },
+  {
+    numb: 17,
+    question: "What is the purpose of a hash function in a hash table?",
+    answer: "C. To map keys to indices in an array",
+    options: [
+      "A. To compress data",
+      "B. To encrypt data",
+      "C. To map keys to indices in an array",
+      "D. To sort data"
+    ]
+  },
+  {
+    numb: 18,
+    question: "What is a key characteristic of dynamic programming?",
+    answer: "B. Overlapping subproblems and optimal substructure",
+    options: [
+      "A. Divide and conquer approach",
+      "B. Overlapping subproblems and optimal substructure",
+      "C. Recursive backtracking",
+      "D. Use of graphs"
+    ]
+  },
+  {
+    numb: 19,
+    question: "Which of the following is an example of a greedy algorithm?",
+    answer: "A. Huffman Encoding",
+    options: [
+      "A. Huffman Encoding",
+      "B. Depth First Search",
+      "C. Dynamic Programming",
+      "D. Bellman-Ford Algorithm"
+    ]
+  },
+  {
+    numb: 20,
+    question: "What is the main advantage of a balanced binary search tree (e.g., AVL Tree)?",
+    answer: "B. Maintains O(log n) height for efficient operations",
+    options: [
+      "A. Reduces space complexity",
+      "B. Maintains O(log n) height for efficient operations",
+      "C. Simplifies traversal",
+      "D. Improves sorting speed"
+    ]
+  },
+  {
+    numb: 21,
+    question: "Which traversal method processes the left subtree, root, and then the right subtree?",
+    answer: "C. In-order Traversal",
+    options: [
+      "A. Pre-order Traversal",
+      "B. Post-order Traversal",
+      "C. In-order Traversal",
+      "D. Level-order Traversal"
+    ]
+  },
+  {
+    numb: 22,
+    question: "In machine learning, what does the term 'overfitting' mean?",
+    answer: "A. The model performs well on training data but poorly on new data",
+    options: [
+      "A. The model performs well on training data but poorly on new data",
+      "B. The model generalizes well to all datasets",
+      "C. The model has too few features",
+      "D. The model takes too long to train"
+    ]
+  },
+  {
+    numb: 23,
+    question: "What is the space complexity of a depth-first search (DFS) in a graph?",
+    answer: "C. O(V + E)",
+    options: [
+      "A. O(V^2)",
+      "B. O(E)",
+      "C. O(V + E)",
+      "D. O(V)"
+    ]
+  },
+  {
+    numb: 24,
+    question: "Which technique is used to break a problem into smaller subproblems recursively?",
+    answer: "A. Divide and Conquer",
+    options: [
+      "A. Divide and Conquer",
+      "B. Greedy Algorithm",
+      "C. Brute Force",
+      "D. Backtracking"
+    ]
+  },
+  {
+    numb: 25,
+    question: "What is the main difference between stack and queue data structures?",
+    answer: "B. Stack is LIFO, while queue is FIFO",
+    options: [
+      "A. Stack is FIFO, while queue is LIFO",
+      "B. Stack is LIFO, while queue is FIFO",
+      "C. Both operate as FIFO structures",
+      "D. Both operate as LIFO structures"
+    ]
+  }
+]
